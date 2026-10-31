@@ -6,10 +6,20 @@
     <title>MicroShift Terms of Use</title>
     <meta name="description" content="The terms for using the MicroShift app.">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon-light.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" href="images/favicon-dark.png" media="(prefers-color-scheme: dark)">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 </head>
 <body>
     <header>
-        <p class="app-name">MicroShift</p>
+        <p class="app-name">
+            <!-- The app's logo, light or dark to match the device. The name beside it says what it is. -->
+            <picture>
+                <source srcset="images/logo-dark.png" media="(prefers-color-scheme: dark)">
+                <img src="images/logo-light.png" alt="" width="48" height="48">
+            </picture>
+            MicroShift
+        </p>
         <nav aria-label="Pages">
             <a href="./">Support</a>
             <a href="privacy.html">Privacy Policy</a>

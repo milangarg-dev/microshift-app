@@ -6,10 +6,20 @@
     <title>MicroShift Support</title>
     <meta name="description" content="Help and contact for MicroShift, the app that breaks big assignments into small steps.">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon-light.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" href="images/favicon-dark.png" media="(prefers-color-scheme: dark)">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 </head>
 <body>
     <header>
-        <p class="app-name">MicroShift</p>
+        <p class="app-name">
+            <!-- The app's logo, light or dark to match the device. The name beside it says what it is. -->
+            <picture>
+                <source srcset="images/logo-dark.png" media="(prefers-color-scheme: dark)">
+                <img src="images/logo-light.png" alt="" width="48" height="48">
+            </picture>
+            MicroShift
+        </p>
         <nav aria-label="Pages">
             <a href="./" aria-current="page">Support</a>
             <a href="privacy.html">Privacy Policy</a>
@@ -70,8 +80,8 @@
         <h3>How does the study streak work?</h3>
         <p>Finish at least one step on a weekday and that day counts. Your streak is how many weekdays in a row you've
             done that, and weekends are off, so they never break it. See it in Settings → Study Streak. If you haven't
-            finished a step by 5 PM on a weekday, MicroShift sends a gentle reminder; turn it off by unchecking Study
-            Reminders in Settings → Notifications.</p>
+            finished a step by 5 PM on a weekday, MicroShift sends a gentle reminder. To pick another time, or turn it
+            off, open Settings → Notifications.</p>
 
         <h3>What are achievements?</h3>
         <p>Trophies for your first assignment, your first finished assignment, setting a streak goal, and study streaks

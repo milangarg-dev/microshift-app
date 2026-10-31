@@ -6,10 +6,20 @@
     <title>MicroShift Privacy Policy</title>
     <meta name="description" content="MicroShift collects no personal information. Everything stays on your device.">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon-light.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" href="images/favicon-dark.png" media="(prefers-color-scheme: dark)">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 </head>
 <body>
     <header>
-        <p class="app-name">MicroShift</p>
+        <p class="app-name">
+            <!-- The app's logo, light or dark to match the device. The name beside it says what it is. -->
+            <picture>
+                <source srcset="images/logo-dark.png" media="(prefers-color-scheme: dark)">
+                <img src="images/logo-light.png" alt="" width="48" height="48">
+            </picture>
+            MicroShift
+        </p>
         <nav aria-label="Pages">
             <a href="./">Support</a>
             <a href="privacy.html" aria-current="page">Privacy Policy</a>
@@ -19,7 +29,7 @@
 
     <main>
         <h1>Privacy Policy</h1>
-        <p class="updated">Effective October 29, 2026</p>
+        <p class="updated">Effective October 30, 2026</p>
 
         <div class="summary">
             <p><strong>The short version:</strong> MicroShift doesn't collect any personal information. Everything you add
@@ -59,7 +69,8 @@
 
         <h2>Notifications</h2>
         <p>The first time you open MicroShift, it asks to send you notifications, for reminders before assignments are
-            due and a 5 PM study reminder on weekdays when you haven't finished a step yet. Reminders are scheduled by iOS
+            due and a study reminder on weekdays when you haven't finished a step yet (at 5 PM, or a time you choose).
+            Reminders are scheduled by iOS
             on your device, not sent from a server. A due date reminder shows the assignment's title and when it's due,
             and iOS can show it on your Lock Screen. You choose when reminders come in Settings →
             Notifications in the app, and you can turn notifications off at any time in the iOS Settings app.</p>
@@ -100,8 +111,8 @@
             <li><strong>Delete everything:</strong> delete the MicroShift app. This removes all of its data from your
                 device.</li>
             <li><strong>Camera:</strong> you can turn camera access on or off at any time in the iOS Settings app.</li>
-            <li><strong>Reminders:</strong> choose when they come, or uncheck them all, in Settings → Notifications in the
-                app. To turn notifications off completely, use the iOS Settings app.</li>
+            <li><strong>Reminders:</strong> choose when they come, including the study reminder's time, or uncheck them
+                all, in Settings → Notifications in the app. To turn notifications off completely, use the iOS Settings app.</li>
         </ul>
 
         <h2>If you contact us</h2>
