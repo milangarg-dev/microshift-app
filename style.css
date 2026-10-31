@@ -571,6 +571,11 @@ sup a {
     align-content: start;
 }
 
+/* A point that spans the whole row of a two- or three-column list. */
+.points li.wide {
+    grid-column: 1 / -1;
+}
+
 .points svg {
     width: 28px;
     height: 28px;
