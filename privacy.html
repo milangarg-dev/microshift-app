@@ -11,23 +11,28 @@
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 </head>
 <body>
-    <header>
-        <p class="app-name">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="globalnav">
+        <div class="globalnav-inner">
             <!-- The app's logo, light or dark to match the device. The name beside it says what it is. -->
-            <picture>
-                <source srcset="images/logo-dark.png" media="(prefers-color-scheme: dark)">
-                <img src="images/logo-light.png" alt="" width="48" height="48">
-            </picture>
-            MicroShift
-        </p>
-        <nav aria-label="Pages">
-            <a href="./">Support</a>
-            <a href="privacy.html" aria-current="page">Privacy Policy</a>
-            <a href="terms.html">Terms of Use</a>
-        </nav>
+            <a class="brand" href="./">
+                <picture>
+                    <source srcset="images/logo-dark.png" media="(prefers-color-scheme: dark)">
+                    <img src="images/logo-light.png" alt="" width="28" height="28">
+                </picture>
+                MicroShift
+            </a>
+            <nav class="nav-links" aria-label="Pages">
+                <a href="./#features">Features</a>
+                <a href="./#accessibility">Accessibility</a>
+                <a href="support.html">Support</a>
+                <a href="privacy.html" aria-current="page">Privacy Policy</a>
+            </nav>
+            <a class="nav-cta" href="./#download">Coming Soon</a>
+        </div>
     </header>
 
-    <main>
+    <main id="main" class="doc">
         <h1>Privacy Policy</h1>
         <p class="updated">Effective October 30, 2026</p>
 
@@ -38,7 +43,7 @@
         </div>
 
         <p>This policy explains what the MicroShift app (“MicroShift”, “we”, “us”) does with information. It applies to the
-            MicroShift app for iPhone and iPad.</p>
+            MicroShift app for iPhone and iPad, and to this website.</p>
 
         <h2>Information we collect</h2>
         <p>None. MicroShift has no servers and no accounts, and it never sends your information anywhere. We can't see
@@ -115,6 +120,14 @@
                 all, in Settings → Notifications in the app. To turn notifications off completely, use the iOS Settings app.</li>
         </ul>
 
+        <h2>This website</h2>
+        <p>This website doesn't use cookies, analytics, ads or trackers, and it has no forms or sign-ups. Its pictures
+            and text come from the site itself, not from other companies. It's hosted by GitHub Pages, which, like any
+            web host, may log technical information such as your IP address to keep the service secure. That's handled
+            under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's
+                Privacy Statement</a>, and we don't see or use it. Links to YouTube, Instagram and TikTok take you to those
+            services, which have their own privacy policies.</p>
+
         <h2>If you contact us</h2>
         <p>If you email us, we'll receive your email address and whatever you write. We use it only to reply to you, never
             share it, and delete the conversation when it's no longer needed.</p>
@@ -127,9 +140,20 @@
         <p>Questions about privacy? Email <a href="mailto:milangargdev@gmail.com">milangargdev@gmail.com</a>.</p>
     </main>
 
-    <footer>
-        <p><a href="./">Support</a> · <a href="terms.html">Terms of Use</a> ·
-            <a href="mailto:milangargdev@gmail.com">milangargdev@gmail.com</a></p>
+    <footer class="site-footer">
+        <div class="wrap">
+            <p>MicroShift is a study helper, not a medical device. It doesn't diagnose, treat or cure any condition.</p>
+            <p>Apple, iPhone, iPad, Apple Intelligence and App Store are trademarks of Apple Inc., registered in the U.S.
+                and other countries and regions. MicroShift isn't affiliated with, sponsored by or endorsed by Apple Inc.</p>
+            <nav class="footer-links" aria-label="Footer">
+                <a href="./">Home</a>
+                <a href="support.html">Support</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Use</a>
+                <a href="mailto:milangargdev@gmail.com">milangargdev@gmail.com</a>
+            </nav>
+            <p>Copyright © 2026 MicroShift. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
